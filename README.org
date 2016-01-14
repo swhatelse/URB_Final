@@ -1,0 +1,8 @@
+* Installation
+  This program uses the gnome library GLib, to install it you need
+  before  to *install* libffi and probably zlib also. 
+  And then the execute the following script which will install GLib.
+  It will also compile the Uniform Reliable Broadcast program.
+  #+begin_src sh :session foo :results output :exports both 
+  . ./install.sh
+  #+end_src
