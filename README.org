@@ -6,3 +6,16 @@
   #+begin_src sh :session foo :results output :exports both 
   . ./install.sh
   #+end_src
+* Compiling the program alone
+  #+begin_src sh :session foo :results output :exports both 
+  ./compile.sh
+  #+end_src
+* Usage
+  To automatically run 4 instances:
+  #+begin_src sh :session foo :results output :exports both 
+  ./run.sh
+  #+end_src
+  Or to run instances independently
+  #+begin_src sh :session foo :results output :exports both 
+  ./bin/main -p [port number] -f host.txt
+  #+end_src
